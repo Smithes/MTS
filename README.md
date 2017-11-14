@@ -1,4 +1,4 @@
-# My Thai Star
+# My Thai Star - Loadtest copy
 
 This repository is an **iCSD Capgemini** initiative that hosts an application reference called **My Thai Star**. This application is about the management of a restaurant.
 

@@ -49,8 +49,7 @@ node {
     }
     
     stage('Deployment') {
-        //sshagent (credentials: ['deploykey']) {
-        sshagent (credentials: ['deployphrase']) {    
+        sshagent (credentials: ['deploykey']) {   
             sh """
                 cd angular
                 # Copy resulting "dist" folder from workspace to deployment server

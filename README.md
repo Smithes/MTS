@@ -39,11 +39,11 @@ GraphQL is a query language for your API, and a server-side runtime for executin
 
 The application is completely deployed as it is specified in the Wiki of this repository. Follow next links to see the results.
 
-1. [Angular client for Java server](http://de-mucdevondepl01:8090)
+1. [Angular client for Java server](http://de-muc-mythai:8090)
 
-2. [Angular client for Java server using Docker Compose](http://de-mucdevondepl01:8091)
+2. [Angular client for Java server using Docker Compose](http://de-muc-mythai:8091)
 
-3. [Java server for Angular client](http://de-mucdevondepl01:9090/mythaistar/)
+3. [Java server for Angular client](http://de-muc-mythai:9090/mythaistar/)
 
-4. [Java server for Angular client using Docker Compose](http://de-mucdevondepl01:9091/mythaistar/)
+4. [Java server for Angular client using Docker Compose](http://de-muc-mythai:9091/mythaistar/)
 

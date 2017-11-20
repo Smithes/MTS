@@ -7,6 +7,6 @@ export enum BackendType {
 export const environment: {production: boolean, backendType: BackendType, restPathRoot: string, restServiceRoot: string} = {
   production: false,
   backendType: BackendType.REST,
-  restPathRoot: 'http://localhost:9080/mythaistar/',
-  restServiceRoot: 'http://localhost:9080/mythaistar/services/rest/',
+  restPathRoot: 'http://de-muc-mythai:9080/mythaistar/',
+  restServiceRoot: 'http://de-muc-mythai:9080/mythaistar/services/rest/',
 };

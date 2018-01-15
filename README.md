@@ -1,4 +1,4 @@
-# My Thai Star
+# My Thai Star - Loadtest copy
 
 This repository is an **iCSD Capgemini** initiative that hosts an application reference called **My Thai Star**. This application is about the management of a restaurant.
 
@@ -43,7 +43,7 @@ The application is completely deployed as it is specified in the Wiki of this re
 
 2. [Angular client for Java server using Docker Compose](http://de-muc-mythai:8091)
 
-3. [Java server for Angular client](http://de-mucdevondepl01:9090/mythaistar/)
+3. [Java server for Angular client](http://de-muc-mythai:9090/mythaistar/)
 
 4. [Java server for Angular client using Docker Compose](http://de-muc-mythai:9091/mythaistar/)
 

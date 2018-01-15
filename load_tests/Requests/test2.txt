@@ -1,0 +1,13 @@
+{
+"booking":
+	{
+	"bookingDate":"2018-02-22T16:30:00.000Z",
+	"name":"testname",
+	"email":"testmail2@mail.com",
+	"bookingType":1
+	},
+"invitedGuests":
+	[
+	{"email":"mark-steven.buder@capgemini.com"}
+	]
+}

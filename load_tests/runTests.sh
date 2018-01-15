@@ -8,7 +8,7 @@ num_ramp_up=0
 num_iterations=250
 
 ## ITERATE OVER ALL WANTED NUM_THREADS VALUES
-for num_threads in 1 10 15 30 60 120 240 480
+for num_threads in 1 10 15 30
 do
         name_run="jmeter-run-t$num_threads-r$num_ramp_up-n$num_iterations"
 
@@ -24,9 +24,8 @@ do
         echo $separator
 
         ## CALL APACHE JMETER
-        ../bin/apache-jmeter-3.3/bin/jmeter -n -JtestData=$test_data -JnumThreads=$num_threads -JnumRampUp=$num_ramp_up -JnumIterations=$num_iterations -t $j_meter_script -l $name_run.jtl
-        ../bin/apache-jmeter-3.3/bin/jmeter -g $name_run.jtl -o $name_run
-
+        jmeter -n -JtestData=$test_data -JnumThreads=$num_threads -JnumRampUp=$num_ramp_up -JnumIterations=$num_iterations -t $j_meter_script -l $name_run.jtl -Djava.rmi.server.hostname=10.40.235.120 -Dclient.rmi.localport=60000 -R10.40.235.121
+        
         #exec &>/dev/tty
 
 done
